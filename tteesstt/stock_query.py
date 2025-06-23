@@ -13,7 +13,7 @@ def main():
 
     # 2. 读取文本挖掘数据（Excel）
     # 修改这里：使用相对路径（与代码文件同级）
-    file_path = "数字化转型词频统计结果（总）.xlsx"
+    file_path = "tteesstt/数字化转型词频统计结果（总）.xlsx" 
     try:
         df = pd.read_excel(file_path)
         st.success("文本数据挖掘成功！加载 {} 条企业记录".format(len(df)))
